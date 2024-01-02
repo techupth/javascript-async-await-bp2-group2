@@ -9,8 +9,10 @@ let getJohnProfile = () => {
           age: 20,
           hobbies: ["Coding", "Football"],
         }),
-      1000
+      100
     );
   });
 };
 // Start coding here
+
+getJohnProfile().then((res) => console.log(res));
